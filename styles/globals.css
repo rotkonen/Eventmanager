@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    color: #fff;
+    font-family: 'Montserrat';font-size: 22px;
+    background-image: url('../images/Home.jpg');
+    min-height: 100%;
+}
+.login-register{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+}
+h2{
+    color:white;
+    margin: 0 0 30px;
+    padding:0;
+}
+.auth-form-container {
+    background-color: rgba(0,0,0,.8);
+    padding: 4rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    border: 5px solid rgba(83, 17, 145)
+}
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background: transparent;
+}
+input:focus{
+    border-bottom: 3px solid rgb(204, 199, 199);
+}
+label{
+      text-align: left;
+}
+.button-all {
+    border: none;
+    background-color: rgb(83, 17, 145);
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    color:#fff;
+}
+.link-btn {
+    border: none;
+    padding: 20px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: rgba(0,0,0,.8);
+    height:50px;
+    border-bottom: 5px solid rgba(83, 17, 145);
+}
+.navbar-header a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar-header button{
+    background-color: transparent;
+    font-size: 15px;
+}
+.navbar-header a+a {
+    margin-left: 10px;
+  }
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    height: 39px;
+}
+.CreateEvents{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    min-height: calc(100vh - 44px - 50px);
+}
+.AllEvents{
+    text-align: center;
+}
+.CreateEvent{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    background-color: rgba(0,0,0,.8);
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    border: 5px solid rgba(83, 17, 145)
+}
+h1{
+    color: black;
+    padding-bottom: 20px;
+}
+.not-found h1 {
+    color:white;
+}
+.not-found {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    background-color: rgba(0,0,0,.8);
+    padding: 5rem;
+    border-radius: 10px;
+    margin: auto;
+    transform: translate(0%, 50%);
+    border: 5px solid rgba(83, 17, 145)
+}
+.display-events{
+    display: flex;
+    flex-direction: column;
+    width:1400px;
+    padding: 2rem;
+    min-height: calc(100vh - 44px - 50px);
+}
+.table-head{
+    background-color: rgba(0,0,0,.8);
+    width: 1400px;
+    border-bottom: 1px rgba(83, 17, 145) solid;
+}
+.table-body{
+    background-color: rgba(0,0,0,.8);
+    width: 1400px;
+}
+.table-head-text{
+    font-size: 25px;
+    min-width:200px;
+    text-align: center;
+    height:40px;
+}
+.table-body-text{
+    font-size: 25px;
+    min-width:200px;
+    text-align: center;
+    height:40px;  
+}
+.main, #__next{
+    min-height: 100vh;
+}
+.table-button-join{
+    border: none;
+    background-color: rgba(0,0,0,.8);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 20px;
+}
+.table-button-join:hover{
+    background-color:rgba(83, 17, 145);
+}
+.logout-btn{
+    color:white;
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
