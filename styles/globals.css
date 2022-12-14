@@ -56,6 +56,12 @@ label{
     cursor: pointer;
     color:#fff;
 }
+.button-all:hover{
+    background-color: rgb(100, 17, 145);
+}
+.button-all:active{
+    transform: scale(0.97);
+}
 .link-btn {
     border: none;
     padding: 20px;
@@ -63,6 +69,12 @@ label{
     color: #fff;
     cursor: pointer;
     text-decoration: underline;
+}
+.link-btn:hover {
+    color: rgb(100, 17, 145);
+}
+.link-btn:active {
+    transform: scale(0.97);
 }
 header{
     display: flex;
@@ -78,9 +90,12 @@ header{
     text-decoration: none;
     font-size: 25px;
 }
+.navbar-header a:hover{
+    color:rgba(83, 17, 145);
+}
 .navbar-header button{
     background-color: transparent;
-    font-size: 15px;
+    font-size: 25px;
 }
 .navbar-header a+a {
     margin-left: 10px;
@@ -175,10 +190,19 @@ h1{
 .table-button-join:hover{
     background-color:rgba(83, 17, 145);
 }
+.table-button-join:active{
+    transform: scale(0.97);
+}
 .logout-btn{
     color:white;
     border: none;
     padding: 20px;
     border-radius: 25px;
     cursor: pointer;
+}
+.logout-btn:hover{
+    color: rgba(83, 17, 145);
+}
+.logout-btn:active{
+    transform: scale(0.97);
 }
