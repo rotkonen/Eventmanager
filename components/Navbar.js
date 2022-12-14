@@ -6,7 +6,7 @@ export default function Navbar() {
         <Link href="/main">Event Planner</Link>
         <nav>
             <Link href="/eventcreator">Create Event</Link>
-            <button type="submit" className="logout-btn" >Logout</button>
+            <Link href="/" className="logout-btn" >Logout</Link>
         </nav>
     </header>
     )
