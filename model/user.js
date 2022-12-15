@@ -9,11 +9,11 @@ const userSchema = new mongoose.Schema({
         type:String
     },
     number:{
-        type:Number,
+        type:String,
         unique:true
     },
     date:{
-        type:Date
+        type:String
     },
     email:{
         type:String,

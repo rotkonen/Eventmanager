@@ -4,10 +4,10 @@ import { useQuery } from "react-query"
 export default function AllEvents() {
 
     const {isLoading, isError, data, error} = useQuery('users', getEvent)
-
-    if(isLoading)return<div>Employe is Loading...</div>
-    if(isError)return<div>Got Error {error}</div>
-
+  
+    if(isLoading)return<div className="employe-loading">Employe is Loading...</div>
+    if(isError)return<div className="got-error">Got Error {error}</div>
+    
     return (
         <table className="display-events">
             <thead className="table-head">

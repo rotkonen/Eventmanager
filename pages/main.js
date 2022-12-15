@@ -9,7 +9,6 @@ export default function Main() {
         <div className='main'>
             <Navbar />
             <AllEvents />
-            <Footer />
         </div>
     )
   }

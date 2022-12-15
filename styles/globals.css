@@ -206,3 +206,15 @@ h1{
 .logout-btn:active{
     transform: scale(0.97);
 }
+.employe-loading,.got-error{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    background-color: rgba(0,0,0,.8);
+    padding: 5rem;
+    border-radius: 10px;
+    margin: auto;
+    transform: translate(0%, 50%);
+    border: 5px solid rgba(83, 17, 145)
+}
